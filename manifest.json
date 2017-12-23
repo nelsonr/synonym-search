@@ -1,0 +1,20 @@
+{
+
+    "manifest_version": 2,
+    "name": "View Synonims",
+    "version": "1.0",
+  
+    "description": "View synonims for selected text",
+  
+    "icons": {
+      "48": "icons/icon-180.png",
+      "96": "icons/icon-180.png"
+    },
+
+    "background": {
+      "scripts": ["view-synonims.js"]
+    },
+
+    "permissions": ["contextMenus", "tabs"]
+  
+}
