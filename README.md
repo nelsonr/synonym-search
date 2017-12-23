@@ -1,7 +1,7 @@
-# View Synonyms
+# Synonym Search
 
-A web extension to check synonyms for selected text. It uses thesaurus.com as the default source.
+A web extension to check synonyms for selected text. It uses thesaurus.com as the default search engine.
 
-Only supports Firefox for now.
+Supports only Firefox for now.
 
-![working example](example.png)
+<img src="example.png" width="525" alt="Working example">
