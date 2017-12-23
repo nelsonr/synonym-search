@@ -1,3 +1,7 @@
+if  (browser === undefined) {
+    var browser = chrome;
+}
+
 browser.contextMenus.create({
     id: "search-synonyms",
     title: "Search synonyms for \"%s\"",
