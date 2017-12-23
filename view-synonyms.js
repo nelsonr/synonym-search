@@ -1,12 +1,12 @@
 browser.contextMenus.create({
-    id: "view-synonims",
-    title: "View synonims for \"%s\"",
+    id: "view-synonyms",
+    title: "View synonyms for \"%s\"",
     contexts: ["selection"]
 }, onMenuCreated);
 
 browser.contextMenus.onClicked.addListener((info, tab) => {
     switch (info.menuItemId) {
-        case "view-synonims":
+        case "view-synonyms":
             browser.tabs.create({ url: thesaurus(info.selectionText) }).then(onNewTab, onNewTabError);
             break;
     
@@ -19,7 +19,7 @@ function onMenuCreated() {
     if (browser.runtime.lastError) {
       console.log(`Error: ${browser.runtime.lastError}`);
     } else {
-      console.log("View synonims context menu created successfully");
+      console.log("View synonyms context menu created successfully");
     }
 }
 
