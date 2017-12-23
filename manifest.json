@@ -4,7 +4,7 @@
     "name": "Synonym Search",
     "version": "1.0",
   
-    "description": "Search synonyms for selected text",
+    "description": "Search synonyms for selected text using thesaurus.com",
   
     "icons": {
       "48": "icons/sysearch-icon.png",

@@ -1,4 +1,4 @@
-if  (browser === undefined) {
+if (browser === undefined) {
     var browser = chrome;
 }
 
@@ -21,9 +21,9 @@ browser.contextMenus.onClicked.addListener((info, tab) => {
 
 function onMenuCreated() {
     if (browser.runtime.lastError) {
-      console.log(`Error: ${browser.runtime.lastError}`);
+        console.log(`Error: ${browser.runtime.lastError}`);
     } else {
-      console.log("Search synonyms context menu created successfully");
+        console.log("Search synonyms context menu created successfully");
     }
 }
 

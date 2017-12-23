@@ -1,0 +1,1 @@
+zip -r build-$(date +"%s").zip icons manifest.json search-synonyms.js
